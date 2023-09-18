@@ -1,1 +1,6 @@
 #!/usr/bin/env bash
+#forls
+for l in *
+do
+	echo "$l" | cut -d '-' -f2
+done
