@@ -4,7 +4,7 @@ f=0
 while [ $f -lt 10 ]
 do
     echo "Best School"
-    if [ $f = 9 ]
+    if [ $f = 8 ]
     then
 	echo "Hi"
     fi
