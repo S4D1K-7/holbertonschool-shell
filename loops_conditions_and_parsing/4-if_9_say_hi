@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #he's a semi aquatic egg laying mammle of action
-f=1
+f=0
 while [ $f -le 10 ]
 do
     echo "Best School"
@@ -8,5 +8,5 @@ do
     then
 	echo "Hi"
     fi
-    ((x++))
+    ((f++))
 done
