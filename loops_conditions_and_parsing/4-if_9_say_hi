@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 #he's a semi aquatic egg laying mammle of action
 f=1
-until [ $f -gt 9 ]
+while [ $f -le 10 ]
 do
-        echo "Best School"
-        (( f++))
+    echo "Best School"
+    if [ $f -eq 9 ]
+    then
+	echo "Hi"
+    fi
+    ((x++))
 done
