@@ -1,1 +1,8 @@
 #!/usr/bin/env bash
+#he's a semi aquatic egg laying mammle of action
+f=1
+until [ $f -gt 9 ]
+do
+        echo "Best School"
+        (( f++))
+done
