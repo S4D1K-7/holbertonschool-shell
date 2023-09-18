@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #he's a semi aquatic egg laying mammle of action, a Bash script that displays Best School 10 times.
-f=1
+f=0
 until [ $f -eq 10 ]
 do
         echo "Best School"
