@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #he's a semi aquatic egg laying mammle of action
 f=0
-while [ $f -le 10 ]
+while [ $f -lt 10 ]
 do
     echo "Best School"
-    if [ $f -eq 9 ]
+    if [ $f = 9 ]
     then
 	echo "Hi"
     fi
