@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#ahh perry da platypuss 
 f=school
 if [ -e "$f" ]
 then
