@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #reaf
-while read line
+filename="/etc/passwd"
+while IFS= read -r username userid homedir
 do
-	echo "$line" | cut -d : -f 1,3,6
-done < /etc/passwd
+	echo "$username $userid $homedir" | cut -d: -f 1,3,6
+done < $filename
